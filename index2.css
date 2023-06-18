@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+background-image: url('/images/pexels-bich-tran-669996.jpg');
+opacity: 0.7;
+background-size: cover;
+background-repeat: repeat;
+width: 100vw;
+height: 100vh;
+position: relative;
+} 
+.mypic{
+/* margin: auto; */
+width:40px;
+height: 40px;
+border-style: solid;
+border-radius:50% ;
+
+/* this is to change the position of div=mypic */
+
+top: 50px;
+left: 30px;
+
+position: absolute;
+}
+
+/* this is used to fit image in size of div that is my pic */
+.mypic img{
+height: 100%;
+width: 100%;
+border-radius: 50%;
+}
+/* @media only screen and (max-width:400px){
+    .mypic{
+        margin: auto;
+        width:40px;
+        height: 40px;
+        border-style: solid;
+        border-radius:50% ;
+    
+    
+} */
